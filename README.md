@@ -46,6 +46,7 @@ o	Dropout2D after each layer (0.3–0.4)
 o	Dropout(0.6) before final classification
 ________________________________________
 📄 Report: Data Preparation and Loading Pipeline
+
 🔧 1. Hyperparameter Setup
 The script defines key hyperparameters that control training dynamics and regularization:
 •	Epochs: 200 — the number of times the model will iterate through the training data.
@@ -55,15 +56,26 @@ The script defines key hyperparameters that control training dynamics and regula
 •	Early Stopping Patience: 20 — training halts if no improvement is seen over this many epochs.
 ________________________________________
 🏋️ Training Transformations (Data Augmentation)
+
 A robust set of augmentations is applied to artificially expand the dataset and improve generalization:
+
 •	Resize((245, 457)): Standardizes input image dimensions.
+
 •	RandomHorizontalFlip(p=0.5): Horizontally flips images with 50% probability.
+
 •	RandomVerticalFlip(p=0.3): Vertically flips images with 30% probability.
+
 •	RandomRotation(25): Rotates images randomly within ±25 degrees.
+
 •	ColorJitter(...): Randomly changes brightness, contrast, and saturation.
+
 •	RandomAffine(...): Applies affine transformation with shearing and scaling.
+
 •	ToTensor(): Converts images into PyTorch tensors.
+
 🔍 Testing/Validation Transformations
+
 A minimal set of transformations is applied to ensure consistency and performance evaluation:
+
 •	Resize((245, 457)): Matches the training input size.
 •	ToTensor(): Converts images to tensor format.
