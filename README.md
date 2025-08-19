@@ -42,7 +42,7 @@ o	Identity or 1×1 convolution-based skip connection if shape mismatch.
 
 o	Final output passed through LeakyReLU.
 
-3. NormalConvBlock
+2. NormalConvBlock
    
 •	A basic convolutional block without residual connection.
 
