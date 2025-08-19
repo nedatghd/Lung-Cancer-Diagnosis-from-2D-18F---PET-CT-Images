@@ -78,9 +78,9 @@ o	Dropout2D after each layer (0.3–0.4)
 
 o	Dropout(0.6) before final classification
 ________________________________________
-📄 Report: Data Preparation and Loading Pipeline
+📄 Data Preparation and Loading Pipeline
 
-🔧 1. Hyperparameter Setup
+🔧 Hyperparameter Setup
 
 The script defines key hyperparameters that control training dynamics and regularization:
 
