@@ -71,11 +71,6 @@ plt.ylabel('True')
 plt.title('Confusion Matrix')
 plt.show()
 
-# --- Per-Class Accuracy ---
-class_acc = cm.diagonal() / cm.sum(axis=1)
-print("\nPer-Class Accuracy:")
-for i, acc in enumerate(class_acc):
-    print(f"{class_names[i]}: {acc:.2%}")
 
 # --- Classification Report ---
 report = classification_report(all_labels, all_preds, target_names=class_names)
@@ -99,3 +94,4 @@ plt.ylabel('True Positive Rate')
 plt.title('Multi-class ROC Curves')
 plt.legend(loc="lower right")
 plt.show()
+
