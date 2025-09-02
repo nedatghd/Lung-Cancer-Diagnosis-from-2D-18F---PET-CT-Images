@@ -1,3 +1,5 @@
+For the preprocessing scripts, see the forked repository [Preprocessing Repo](https://github.com/username/forked-repo).
+
 Custom Res-SE Net is a custom-designed convolutional neural network for image classification, featuring a blend of Residual Blocks with Squeeze-and-Excitation (SE) attention and standard convolutional blocks. The architecture alternates between these two block types and culminates in a fully connected classifier.
 <img width="895" height="462" alt="image" src="https://github.com/user-attachments/assets/4ac8c86c-759e-45a5-b3f4-710169742189" />
 <img width="833" height="544" alt="image" src="https://github.com/user-attachments/assets/fff5322f-0d6e-440c-afe0-7bc221a0b2c9" />
