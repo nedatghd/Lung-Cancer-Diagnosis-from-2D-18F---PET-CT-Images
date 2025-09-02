@@ -1,13 +1,8 @@
-## Example: How to Run the Script
-
 Here is how you can run the preprocessing script from the forked repo:
 
 ```python
 # Navigate to the folder
 cd forked-repo
-
-# Run the preprocessing script
-python preprocess.py --input data/input --output data/output
 
 
 
