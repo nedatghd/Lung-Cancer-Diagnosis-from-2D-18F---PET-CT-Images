@@ -3,8 +3,6 @@ Custom Res-SE Net is a custom-designed convolutional neural network for image cl
 <img width="833" height="544" alt="image" src="https://github.com/user-attachments/assets/fff5322f-0d6e-440c-afe0-7bc221a0b2c9" />
 
  Schematic illustration of two primary building blocks: a) Res-SE Block, which integrates residual connections with channel-wise attention (Squeeze-and-Excitation), b) Norm. Conv Block consists of standard convolutional operations without skip connections 
-
-**For the Custom Res-SE Net scripts, see this repository [Custom Res-SE Net](https://github.com/nedatghd/Lung-Cancer-Diagnosis-from-2D-18F---PET-CT-Images).** 
 ________________________________________
 🧱 Architecture Summary
 
